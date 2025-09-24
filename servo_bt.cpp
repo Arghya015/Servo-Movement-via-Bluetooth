@@ -6,7 +6,6 @@ BluetoothSerial SerialBT;
 Servo myServo;
 
 int servoPin = 13;  // Servo signal pin
-
 void setup() {
   Serial.begin(115200);
   SerialBT.begin("ESP32_Servo");  // Bluetooth device name
